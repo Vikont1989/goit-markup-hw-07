@@ -1,4 +1,7 @@
-@import "./base/reset";  
+
+@import "./base/vars";
+@import "./base/reset";
+
 
 @import "./header/header";
 
@@ -16,6 +19,7 @@
 @import "./layouts-portfolio/nav-buttons";
 @import "./layouts-portfolio/completed-projects";
 @import "./modal-window/modal-window";
+
 
 
 
