@@ -1,3 +1,4 @@
+
 // /* ключові можливості та стратегія фірми company strategy */
 
 .visually-hidden {
@@ -27,51 +28,50 @@
     max-width: 270px;
     margin-top: 0px;
     gap: 30px;
+    &.antenna::before {
+            display: block;
+            content: "";
+            height: 120px;
+            margin-bottom: 30px;
+            background-color: var(--background-color-team);
+            background-image: url(../images/icon/antenna.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+                &.clock::before {
+                    display: block;
+                    content: "";
+                    height: 120px;
+                    margin-bottom: 30px;
+                    background-color: var(--background-color-team);
+                    background-image: url(../images/icon/clock.svg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                               &.diagrama::before {
+                                    display: block;
+                                    content: "";
+                                    height: 120px;
+                                    margin-bottom: 30px;
+                                    background-color: var(--background-color-team);
+                                    background-image: url(../images/icon/diagram.svg);
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                }
+                                                                &.astronaut::before {
+                                                                    display: block;
+                                                                    content: "";
+                                                                    height: 120px;
+                                                                    margin-bottom: 30px;
+                                                                    background-color: var(--background-color-team);
+                                                                    background-image: url(../images/icon/astronaut.svg);
+                                                                    background-repeat: no-repeat;
+                                                                    background-position: center;
+                                                                }
 }
 
-.visually-hidden__items.antenna::before {
-    display: block;
-    content: "";
-    height: 120px;
-    margin-bottom: 30px;
-    background-color: var(--background-color-team);
-    background-image: url(../images/icon/antenna.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
-.visually-hidden__items.clock::before {
-    display: block;
-    content: "";
-    height: 120px;
-    margin-bottom: 30px;
-    background-color: var(--background-color-team);
-    background-image: url(../images/icon/clock.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
-.visually-hidden__items.diagrama::before {
-    display: block;
-    content: "";
-    height: 120px;
-    margin-bottom: 30px;
-    background-color: var(--background-color-team);
-    background-image: url(../images/icon/diagram.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.visually-hidden__items.astronaut::before {
-    display: block;
-    content: "";
-    height: 120px;
-    margin-bottom: 30px;
-    background-color: var(--background-color-team);
-    background-image: url(../images/icon/astronaut.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
 .caption {
     font-weight: 700;
